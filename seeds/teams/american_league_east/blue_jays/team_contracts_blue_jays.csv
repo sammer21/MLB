@@ -1,0 +1,46 @@
+Name,Age,Yrs,Acquired,SrvTm,Agent,Contract-Status,2024,2025,2026,2027,2028,Name-additional
+George Springer,34,11,Free Agency,9.166,Excel Sports Mana...,6 yrs/$150M (21-26),$24.17M,$24.17M,$24.17M,FA,,springe01
+José Berríos,30,9,Traded,7.044,Wasserman,7 yrs/$131M (22-28),$17.71M,$18.71M,$18.71M,$24.71M,$24.71M,berrijo01
+Kevin Gausman,33,12,Free Agency,9.151,Klutch Sports,5 yrs/$110M (22-26),$22M,$23M,$23M,FA,,gausmke01
+Chris Bassitt,35,10,Free Agency,7.130,Meister Sports Ma...,3 yrs/$63M (23-25),$22M,$22M,FA,,,bassich01
+Bo Bichette,26,6,Amateur Draft,4.063,Vayner Sports,3 yrs/$33.6M (23-25),$12.08M,$17.58M,FA,,,bichebo01
+Chad Green,33,9,Free Agency,7.050,Frontline,3 yrs/$23.25M (23-25),$10.5M,$10.5M,FA,,,greench03
+Vladimir Guerrero Jr.,25,6,Amateur Free Agent,4.157,Magnus Sports,1 yr/$19.9M (24),$19.9M,Arb,FA,,,guerrvl02
+Jordan Romano,31,6,Rule 5 returned,4.051,VC Sports Group,1 yr/$7.75M (24),$7.75M,Arb,FA,,,romanjo03
+Daulton Varsho,27,5,Traded,3.128,ISE Baseball,1 yr/$5.65M (24),$5.65M,Arb,Arb,FA,,varshda01
+Ryan Yarbrough,32,7,Traded,5.117,Excel Sports Mana...,1 yr/$3.9M (24),$3.9M,FA,,,,yarbrry01
+Alejandro Kirk,25,5,Amateur Free Agent,3.047,Vayner Sports,1 yr/$2.8M (24),$2.8M,Arb,Arb,FA,,kirkal01
+Erik Swanson,30,6,Traded,4.096,Meister Sports Ma...,1 yr/$2.75M (24),$2.75M,Arb,FA,,,swanser01
+Zach Pop,27,4,Traded,2.024,,1 yr/$766k (24),$765.5k,Arb,Arb,Arb,FA,popza01
+Génesis Cabrera,27,6,Traded,4.011,,1 yr/$1.51M (24),$1.51M,Arb,FA,,,cabrege01
+Dillon Tate,30,5,Waivers,4.048,CAA Sports,1 yr/$1.5M (24),$1.5M,Arb,FA,,,tatedi01
+Luis Frías,26,4,Waivers,0.149,,1 yr/$748k (24),$748.3k,Pre-Arb,Arb,Arb,Arb,friaslu01
+Hagen Danner,25,1st,Amateur Draft,0.052,,1 yr/$740k (24),$740k,Pre-Arb,Pre-Arb,Arb,Arb,danneha01
+Easton Lucas,27,2,Waivers,0.026,,1 yr/$740k (24),$740k,Pre-Arb,Pre-Arb,Arb,Arb,lucasea01
+Alek Manoah,26,4,Amateur Draft,2.063,,1 yr/$783k (24),$782.5k,Arb,Arb,Arb,FA,manoaal01
+Ernie Clement,28,4,Free Agency,1.168,,1 yr/$758k (24),$757.7k,Arb,Arb,Arb,Arb,clemeer01
+Brian Serven,29,3,Waivers,1.012,,1 yr/$751k (24),$751k,Pre-Arb,Arb,Arb,Arb,servebr01
+Bowden Francis,28,3,Traded,0.098,,1 yr/$748k (24),$748k,Pre-Arb,Pre-Arb,Arb,Arb,francbo01
+Davis Schneider,25,2,Amateur Draft,0.059,,1 yr/$745k (24),$744.9k,Pre-Arb,Pre-Arb,Arb,Arb,schneda03
+Yerry Rodríguez,26,3,Traded,0.044,,1 yr/$743k (24),$743k,Pre-Arb,Pre-Arb,Arb,Arb,rodriye01
+Spencer Horwitz,26,2,Amateur Draft,0.037,,1 yr/$742k (24),$741.9k,Pre-Arb,Pre-Arb,Arb,Arb,horwisp01
+Tyler Heineman,33,5,Waivers,2.020,Beverly Hills Spo...,1 yr/$740k (24),$740k,Arb,Arb,Arb,FA,heinety01
+Nathan Lukes,29,2,Free Agency,0.112,,1 yr/$740k (24),$740k,Pre-Arb,Pre-Arb,Arb,Arb,lukesna01
+Nick Robertson,25,2,Waivers,0.063,,1 yr/$740k (24),$740k,Pre-Arb,Pre-Arb,Arb,Arb,roberni01
+Tommy Nance,33,3,Purchased,2.029,Full Circle Sport...,,,,Arb,Arb,FA,nanceto01
+James Kaprielian,30,4,,2.167,,,Arb (~$1.5M),,Arb,Arb,FA,kaprija01
+Paolo Espino,37,6,Free Agency,2.102,The MAS+ Agency,,,,Arb,Arb,FA,espinpa01
+Signed,Players With Guaranteed Contracts (does not include players with options),Players With Guaranteed Contracts (does not include players with options),Players With Guaranteed Contracts (does not include players with options),Players With Guaranteed Contracts (does not include players with options),Players With Guaranteed Contracts (does not include players with options),Players With Guaranteed Contracts (does not include players with options),*28,6,3,1,1,-9999
+Dollars Committed,Value of Guaranteed Contracts (no options are exercised and includes buyouts),Value of Guaranteed Contracts (no options are exercised and includes buyouts),Value of Guaranteed Contracts (no options are exercised and includes buyouts),Value of Guaranteed Contracts (no options are exercised and includes buyouts),Value of Guaranteed Contracts (no options are exercised and includes buyouts),Value of Guaranteed Contracts (no options are exercised and includes buyouts),*$164.7M,$116M,$65.9M,$24.71M,$24.71M,-9999
+,,,,,,,,,,,,-9999
+Contract Options,Players with any type of option,Players with any type of option,Players with any type of option,Players with any type of option,Players with any type of option,Players with any type of option,,,,,,-9999
+Option Values,Maximum value of options if all are exercised,Maximum value of options if all are exercised,Maximum value of options if all are exercised,Maximum value of options if all are exercised,Maximum value of options if all are exercised,Maximum value of options if all are exercised,,,,,,-9999
+,,,,,,,,,,,,-9999
+Arb Eligible,Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),Number of arbitration eligible players (1st-2nd-3rd-4th "Arb" players = 3rds),,0-0-11-0,0-0-11-0,0-0-17-0,0-0-11-0,-9999
+Arb Costs,Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),Rough estimated value of all arbitration cases (uses 3-year averages for 1st yr 2nd..),†$1.5M,$62.3M,$62.3M,$96.3M,$62.3M,-9999
+,,,,,,,,,,,,-9999
+Other Players,Additional Players Needed to Fill 25-man (no options exercised),Additional Players Needed to Fill 25-man (no options exercised),Additional Players Needed to Fill 25-man (no options exercised),Additional Players Needed to Fill 25-man (no options exercised),Additional Players Needed to Fill 25-man (no options exercised),Additional Players Needed to Fill 25-man (no options exercised),,8,11,7,13,-9999
+Other Costs,Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),Estimate of Remaining Players Costs (based on 1-year avg of all pre-arb players),,$6.01M,$8.27M,$5.26M,$9.77M,-9999
+,,,,,,,,,,,,-9999
+Payroll (no options),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),Est. Total Payroll w/o Options (Guaranteed + Arb + Other),,$184.3M,$136.5M,$126.3M,$96.8M,-9999
+Payroll (options),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),Est. Total Payroll w/ Options (Guaranteed + Options + Arb + Other),,$184.3M,$136.5M,$126.3M,$96.8M,-9999
