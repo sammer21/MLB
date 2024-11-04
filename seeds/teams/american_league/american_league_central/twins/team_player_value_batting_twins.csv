@@ -1,0 +1,23 @@
+Name,Age,G,PA,Rbat,Rbaser,Rdp,Rfield,Rpos,RAA,WAA,Rrep,RAR,WAR,waaWLpct,162WLpct,oWAR,dWAR,oRAR,Salary,Acquired,Pos-Summary,Name-additional
+Byron Buxton,30,102,388,16,1,1,2,2,22,2.3,13,35,3.6,.522,.514,3.4,0.5,33,$15142857,Amateur Draft,8/HD,buxtoby01
+Jair Camargo,24,5,7,-1,0,0,0,0,-1,-0.2,0,-1,-0.1,.471,.499,-0.1,0.0,-1,$740000,Traded,/2DH,camarja01
+Diego Castillo,26,4,8,1,0,0,1,0,2,0.2,0,2,0.2,.544,.501,0.1,0.1,1,,Purchased,/5DH,castidi02
+Willi Castro#,27,158,635,6,2,1,-18,5,-5,-0.5,22,17,1.6,.497,.497,3.5,-1.4,35,$3300000,Free Agency,64785/H1,castrwi01
+Carlos Correa,29,86,367,23,-1,0,-3,5,24,2.5,12,36,3.7,.528,.515,4.0,0.2,39,$33333334,Free Agency,6/DH,correca01
+Kyle Farmer,33,107,242,-6,-3,-1,-4,3,-10,-1.1,8,-2,-0.3,.490,.493,0.1,-0.1,2,$6300000,Traded,45H6/13D,farmeky01
+Michael Helman,28,9,10,0,0,0,0,0,0,0.0,0,1,0.1,.503,.500,0.1,0.0,1,,Amateur Draft,/8H759,helmami01
+Ryan Jeffers,27,122,465,1,-1,0,1,3,5,0.5,16,21,2.1,.504,.503,2.0,0.5,20,$2425000,Amateur Draft,2DH,jeffery01
+Edouard Julien*,25,94,301,-8,0,1,-6,2,-11,-1.2,10,-1,-0.2,.488,.493,0.5,-0.4,5,$746750,Amateur Draft,4H/D3,julieed01
+DaShawn Keirsey*,27,6,14,-1,0,0,0,0,-1,-0.1,0,0,0.0,.492,.500,0.0,0.0,0,,Amateur Draft,/87,keirsda01
+Max Kepler*,31,105,399,-1,-1,1,0,-3,-4,-0.4,14,10,1.0,.496,.498,1.0,-0.3,10,$10000000,Amateur Free Agent,9H/D,keplema01
+Alex Kirilloff*,26,57,178,-4,0,0,-4,-3,-11,-1.2,6,-5,-0.6,.480,.493,-0.1,-0.7,-1,$1350000,Amateur Draft,7D3/H9,kirilal01
+Trevor Larnach*,27,112,400,7,0,-1,0,-7,0,0.0,14,13,1.3,.500,.500,1.3,-0.7,13,$740000,Amateur Draft,D7H9,larnatr01
+Brooks Lee#,23,50,185,-10,0,-1,1,2,-7,-0.8,6,-1,-0.2,.485,.495,-0.3,0.3,-2,,Amateur Draft,654/HD,leebr02
+Royce Lewis,25,82,325,0,0,0,-2,-1,-4,-0.4,11,7,0.7,.495,.497,0.9,-0.3,9,$745700,Amateur Draft,5D/H4,lewisro02
+Manuel Margot,29,129,343,-11,1,-2,-3,-4,-19,-2.0,12,-7,-0.9,.485,.488,-0.5,-0.8,-4,,Traded,*79H8/D,margoma01
+Austin Martin,25,93,257,-4,0,0,-13,-1,-18,-1.8,9,-9,-1.0,.480,.489,0.4,-1.4,4,$740000,Traded,87H4/D,martiau01
+José Miranda,26,121,429,6,-2,-1,1,-1,3,0.3,15,17,1.7,.502,.502,1.6,0.0,16,$740000,Amateur Draft,5DH3/6,miranjo01
+Carlos Santana#,38,150,594,5,-1,-1,8,-7,5,0.5,20,25,2.5,.503,.503,1.6,0.1,17,$5250000,Free Agency,*3/HD,santaca01
+Christian Vázquez,33,93,315,-14,0,-2,-1,6,-12,-1.3,11,-1,-0.2,.486,.492,-0.1,0.5,0,$10000000,Free Agency,2/5DH3,vazquch01
+Matt Wallner*,26,75,261,14,1,0,0,-3,12,1.3,9,21,2.2,.517,.508,2.2,-0.3,21,$745550,Amateur Draft,97DH/1,wallnma01
+Team Total,28.7,1760,6123,20,-5,-5,-40,-1,-31,-3.1,209,178,17.0,.498,.499,21.2,-4.4,219,$92299191,,,-9999
