@@ -1,0 +1,167 @@
+version: 2
+
+models:
+  - name: stg_guardians_players
+    description: Table with general information about players on this teams full roster. 
+    columns:
+      - name: player_team_name
+        description: The team name the player plays for. 
+
+      - name: player_name
+        description: Name of the player. 
+
+      - name: player_age
+        description: Age of the player. 
+
+      - name: player_birth_country
+        description: Birth country of the player. 
+
+      - name: player_batting_hand
+        description: Indicates whether a player bats left handed, right handed, or switch hits. 
+
+      - name: player_throwing_hand
+        description: Indicates whether a player throws left handed or right handed. 
+
+      - name: player_height
+        description: The height of the player.
+
+      - name: player_weight
+        description: The weight of the player.
+
+      - name: player_years_in_league
+        description: How many years the player has been playing in the league. 
+
+      - name: player_salary
+        description: Salary for the player. 
+
+  - name: stg_royals_players
+    description: Table with general information about players on this teams full roster. 
+    columns:
+      - name: player_team_name
+        description: The team name the player plays for. 
+
+      - name: player_name
+        description: Name of the player. 
+
+      - name: player_age
+        description: Age of the player. 
+
+      - name: player_birth_country
+        description: Birth country of the player. 
+
+      - name: player_batting_hand
+        description: Indicates whether a player bats left handed, right handed, or switch hits. 
+
+      - name: player_throwing_hand
+        description: Indicates whether a player throws left handed or right handed. 
+
+      - name: player_height
+        description: The height of the player.
+
+      - name: player_weight
+        description: The weight of the player.
+
+      - name: player_years_in_league
+        description: How many years the player has been playing in the league. 
+
+      - name: player_salary
+        description: Salary for the player. 
+  
+  - name: stg_tigers_players
+    description: Table with general information about players on this teams full roster. 
+    columns:
+      - name: player_team_name
+        description: The team name the player plays for. 
+
+      - name: player_name
+        description: Name of the player. 
+
+      - name: player_age
+        description: Age of the player. 
+
+      - name: player_birth_country
+        description: Birth country of the player. 
+
+      - name: player_batting_hand
+        description: Indicates whether a player bats left handed, right handed, or switch hits. 
+
+      - name: player_throwing_hand
+        description: Indicates whether a player throws left handed or right handed. 
+
+      - name: player_height
+        description: The height of the player.
+
+      - name: player_weight
+        description: The weight of the player.
+
+      - name: player_years_in_league
+        description: How many years the player has been playing in the league. 
+
+      - name: player_salary
+        description: Salary for the player.
+  
+  - name: stg_twins_players
+    description: Table with general information about players on this teams full roster. 
+    columns:
+      - name: player_team_name
+        description: The team name the player plays for. 
+
+      - name: player_name
+        description: Name of the player. 
+
+      - name: player_age
+        description: Age of the player. 
+
+      - name: player_birth_country
+        description: Birth country of the player. 
+
+      - name: player_batting_hand
+        description: Indicates whether a player bats left handed, right handed, or switch hits. 
+
+      - name: player_throwing_hand
+        description: Indicates whether a player throws left handed or right handed. 
+
+      - name: player_height
+        description: The height of the player.
+
+      - name: player_weight
+        description: The weight of the player.
+
+      - name: player_years_in_league
+        description: How many years the player has been playing in the league. 
+
+      - name: player_salary
+        description: Salary for the player.
+
+  - name: stg_white_sox_players
+    description: Table with general information about players on this teams full roster. 
+    columns:
+      - name: player_team_name
+        description: The team name the player plays for. 
+
+      - name: player_name
+        description: Name of the player. 
+
+      - name: player_age
+        description: Age of the player. 
+
+      - name: player_birth_country
+        description: Birth country of the player. 
+
+      - name: player_batting_hand
+        description: Indicates whether a player bats left handed, right handed, or switch hits. 
+
+      - name: player_throwing_hand
+        description: Indicates whether a player throws left handed or right handed. 
+
+      - name: player_height
+        description: The height of the player.
+
+      - name: player_weight
+        description: The weight of the player.
+
+      - name: player_years_in_league
+        description: How many years the player has been playing in the league. 
+
+      - name: player_salary
+        description: Salary for the player.
