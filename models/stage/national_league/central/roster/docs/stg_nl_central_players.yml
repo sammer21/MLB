@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_braves_players
+  - name: stg_brewers_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -34,7 +34,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
 
-  - name: stg_marlins_players
+  - name: stg_cardinals_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -67,7 +67,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
   
-  - name: stg_mets_players
+  - name: stg_cubs_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -100,7 +100,7 @@ models:
       - name: player_salary
         description: Salary for the player.
   
-  - name: stg_nationals_players
+  - name: stg_pirates_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -133,7 +133,7 @@ models:
       - name: player_salary
         description: Salary for the player.
 
-  - name: stg_phillies_players
+  - name: stg_reds_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name

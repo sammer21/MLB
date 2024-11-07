@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_angels_players
+  - name: stg_angels_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -34,7 +34,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
 
-  - name: stg_astros_players
+  - name: stg_astros_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -67,7 +67,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
   
-  - name: stg_athletics_players
+  - name: stg_athletics_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -100,7 +100,7 @@ models:
       - name: player_salary
         description: Salary for the player.
   
-  - name: stg_mariners_players
+  - name: stg_mariners_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -133,7 +133,7 @@ models:
       - name: player_salary
         description: Salary for the player.
 
-  - name: stg_rangers_players
+  - name: stg_rangers_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name

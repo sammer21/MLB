@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_orioles_players
+  - name: stg_orioles_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -34,7 +34,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
 
-  - name: stg_rays_players
+  - name: stg_rays_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -67,7 +67,7 @@ models:
       - name: player_salary
         description: Salary for the player. 
   
-  - name: stg_redsox_players
+  - name: stg_redsox_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -100,7 +100,7 @@ models:
       - name: player_salary
         description: Salary for the player.
   
-  - name: stg_yankees_players
+  - name: stg_yankees_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
@@ -133,7 +133,7 @@ models:
       - name: player_salary
         description: Salary for the player.
 
-  - name: stg_blue_jays_players
+  - name: stg_blue_jays_roster
     description: Table with general information about players on this teams full roster. 
     columns:
       - name: player_team_name
