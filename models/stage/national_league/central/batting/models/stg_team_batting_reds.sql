@@ -1,14 +1,14 @@
 {% set columns = ["G" , "PA" , "AB", "R" ,"H", "HR", "RBI", "SB", "CS" , "BB" , "SO" , "BA" , "OBP" , "SLG" , "OPS" , "OPSplus"
-, "TB" , "GDP" , "HBP" , "SH" , "SF" , "IBB"] %}
+, "TB" , "GIDP" , "HBP" , "SH" , "SF" , "IBB"] %}
 
 with batting as (
-    select * from {{ ref('team_batting_royals') }}
+    select * from {{ ref('team_batting_reds') }}
 )
 
 select 
     
-    'Royals' as team
-    , Name
+    'Reds' as team
+    , Player as Name
     , Rk
     , Pos
     , COALESCE(batting.`2B`, 0) AS `2B`

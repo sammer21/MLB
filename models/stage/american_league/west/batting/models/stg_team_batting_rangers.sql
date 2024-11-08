@@ -1,13 +1,13 @@
-{% set columns = ["G" , "PA" , "AB", "R" ,"H", "HR", "RBI", "SB", "CS" , "BB" , "SO" , "BA" , "OBP" , "SLG" , "OPS" , "OPSplus"
+{% set columns = ["G" , "PA" , "AB", "R" ,"H", "HR", "RBI", "SB", "CS" , "BB" , "SO" , "BA" , "OBP" , "SLG" , "OPS" 
 , "TB" , "GDP" , "HBP" , "SH" , "SF" , "IBB"] %}
 
 with batting as (
-    select * from {{ ref('team_batting_royals') }}
+    select * from {{ ref('team_batting_rangers') }}
 )
 
 select 
     
-    'Royals' as team
+    'Rangers' as team
     , Name
     , Rk
     , Pos

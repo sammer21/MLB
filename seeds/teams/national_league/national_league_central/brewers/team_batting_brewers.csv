@@ -1,4 +1,4 @@
-Rk,Player,Age,Pos,WAR,G,PA,AB,R,H,2B,3B,HR,RBI,SB,CS,BB,SO,BA,OBP,SLG,OPS,OPS+,rOBA,Rbatplus,TB,GIDP,HBP,SH,SF,IBB,Pos,Awards,Player-additional
+Rk,Player,Age,Pos,WAR,G,PA,AB,R,H,2B,3B,HR,RBI,SB,CS,BB,SO,BA,OBP,SLG,OPS,OPSplus,rOBA,Rbatplus,TB,GIDP,HBP,SH,SF,IBB,Pos,Awards,Player-additional
 1,William Contreras,26,C,4.9,155,679,595,99,167,37,2,23,92,9,2,78,139,.281,.365,.466,.831,129,.361,129,277,19,3,0,3,5,*2D/H,AS,contrwi02
 2,Rhys Hoskins,31,1B,-0.2,131,517,449,59,96,14,0,26,82,3,0,53,149,.214,.303,.419,.722,98,.314,95,188,11,7,0,6,1,3D/H,,hoskirh01
 3,Brice Turang*,24,2B,4.6,155,619,559,72,142,24,4,7,57,50,6,50,105,.254,.316,.349,.665,85,.313,85,195,8,2,5,3,1,*4H/D,,turanbr02

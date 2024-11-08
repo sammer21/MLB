@@ -1,0 +1,302 @@
+version: 2 
+
+models:
+  - name: stg_team_batting_brewers
+    description: Batting statistics for the team. Includes all common metrics. 
+    columns:
+      - name: team
+        description: Name of the team.
+      - name: Name
+        description: Name of the player. 
+      - name: Rk
+        description: Rank of the player. 
+      - name: Pos 
+        description: Position of the player. 
+      - name: 2B
+        description: Total number of doubles hit. 
+      - name: 3B
+        description: Total number of triples player hit. 
+      - name: G
+        description: Total number of games played. 
+      - name: PA
+        description: Total number of plate appearances. 
+      - name: AB
+        description: Total number of at bats. 
+      - name: R
+        description: Total number of runs. 
+      - name: H
+        description: Total number of hits. 
+      - name: HR
+        description: Total number of homeruns. 
+      - name: RBI
+        description: Total number of runs batted in. 
+      - name: SB
+        description: Total number of stolen bases. 
+      - name: CS
+        description: Total number of times caught stealing. 
+      - name: BB
+        description: Total number of walks. 
+      - name: SO
+        description: Total number of strike outs. 
+      - name: BA
+        description: Total number of hits/at-bats.
+      - name: OBP
+        description: On base percentage. Calculated using (H + BB + HBP)/(AB + BB + HBP + SF). 
+      - name: SLG
+        description: Slugging score. Calculated using (1B + 2*2B + 3*3B + 4*HR)/(AB).
+      - name: OPS
+        description: On Base Plus Slugging Percentage. Calculated using (OBP + SLG).
+      - name: OPSplus 
+        description: On Base Plus Sluggling Plus. Calculated using 100*[OBP/lg OBP + SLG/lg SLG - 1]. 
+      - name: TB
+        description: Total Bases. 
+      - name: GIDP
+        description: Total number of Double plays grounded into. 
+      - name: HBP
+        description: Total number of Hit by pitch. 
+      - name: SH
+        description: Total number of Sacrifice Hits (Sacrifice Bunts)
+      - name: SF
+        description: Total number of Sacrifice Flies
+      - name: IBB
+        description: Total number of Intentional Base on Balls. 
+
+  - name: stg_team_batting_cardinals
+    description: Batting statistics for the team. Includes all common metrics. 
+    columns:
+      - name: team
+        description: Name of the team.
+      - name: Name
+        description: Name of the player. 
+      - name: Rk
+        description: Rank of the player. 
+      - name: Pos 
+        description: Position of the player. 
+      - name: 2B
+        description: Total number of doubles hit. 
+      - name: 3B
+        description: Total number of triples player hit. 
+      - name: G
+        description: Total number of games played. 
+      - name: PA
+        description: Total number of plate appearances. 
+      - name: AB
+        description: Total number of at bats. 
+      - name: R
+        description: Total number of runs. 
+      - name: H
+        description: Total number of hits. 
+      - name: HR
+        description: Total number of homeruns. 
+      - name: RBI
+        description: Total number of runs batted in. 
+      - name: SB
+        description: Total number of stolen bases. 
+      - name: CS
+        description: Total number of times caught stealing. 
+      - name: BB
+        description: Total number of walks. 
+      - name: SO
+        description: Total number of strike outs. 
+      - name: BA
+        description: Total number of hits/at-bats.
+      - name: OBP
+        description: On base percentage. Calculated using (H + BB + HBP)/(AB + BB + HBP + SF). 
+      - name: SLG
+        description: Slugging score. Calculated using (1B + 2*2B + 3*3B + 4*HR)/(AB).
+      - name: OPS
+        description: On Base Plus Slugging Percentage. Calculated using (OBP + SLG).
+      - name: OPSplus 
+        description: On Base Plus Sluggling Plus. Calculated using 100*[OBP/lg OBP + SLG/lg SLG - 1]. 
+      - name: TB
+        description: Total Bases. 
+      - name: GIDP
+        description: Total number of Double plays grounded into. 
+      - name: HBP
+        description: Total number of Hit by pitch. 
+      - name: SH
+        description: Total number of Sacrifice Hits (Sacrifice Bunts)
+      - name: SF
+        description: Total number of Sacrifice Flies
+      - name: IBB
+        description: Total number of Intentional Base on Balls. 
+
+  - name: stg_team_batting_cubs
+    description: Batting statistics for the team. Includes all common metrics. 
+    columns:
+      - name: team
+        description: Name of the team.
+      - name: Name
+        description: Name of the player. 
+      - name: Rk
+        description: Rank of the player. 
+      - name: Pos 
+        description: Position of the player. 
+      - name: 2B
+        description: Total number of doubles hit. 
+      - name: 3B
+        description: Total number of triples player hit. 
+      - name: G
+        description: Total number of games played. 
+      - name: PA
+        description: Total number of plate appearances. 
+      - name: AB
+        description: Total number of at bats. 
+      - name: R
+        description: Total number of runs. 
+      - name: H
+        description: Total number of hits. 
+      - name: HR
+        description: Total number of homeruns. 
+      - name: RBI
+        description: Total number of runs batted in. 
+      - name: SB
+        description: Total number of stolen bases. 
+      - name: CS
+        description: Total number of times caught stealing. 
+      - name: BB
+        description: Total number of walks. 
+      - name: SO
+        description: Total number of strike outs. 
+      - name: BA
+        description: Total number of hits/at-bats.
+      - name: OBP
+        description: On base percentage. Calculated using (H + BB + HBP)/(AB + BB + HBP + SF). 
+      - name: SLG
+        description: Slugging score. Calculated using (1B + 2*2B + 3*3B + 4*HR)/(AB).
+      - name: OPS
+        description: On Base Plus Slugging Percentage. Calculated using (OBP + SLG).
+      - name: OPSplus 
+        description: On Base Plus Sluggling Plus. Calculated using 100*[OBP/lg OBP + SLG/lg SLG - 1]. 
+      - name: TB
+        description: Total Bases. 
+      - name: GIDP
+        description: Total number of Double plays grounded into. 
+      - name: HBP
+        description: Total number of Hit by pitch. 
+      - name: SH
+        description: Total number of Sacrifice Hits (Sacrifice Bunts)
+      - name: SF
+        description: Total number of Sacrifice Flies
+      - name: IBB
+        description: Total number of Intentional Base on Balls. 
+
+  - name: stg_team_batting_pirates
+    description: Batting statistics for the team. Includes all common metrics. 
+    columns:
+      - name: team
+        description: Name of the team.
+      - name: Name
+        description: Name of the player. 
+      - name: Rk
+        description: Rank of the player. 
+      - name: Pos 
+        description: Position of the player. 
+      - name: 2B
+        description: Total number of doubles hit. 
+      - name: 3B
+        description: Total number of triples player hit. 
+      - name: G
+        description: Total number of games played. 
+      - name: PA
+        description: Total number of plate appearances. 
+      - name: AB
+        description: Total number of at bats. 
+      - name: R
+        description: Total number of runs. 
+      - name: H
+        description: Total number of hits. 
+      - name: HR
+        description: Total number of homeruns. 
+      - name: RBI
+        description: Total number of runs batted in. 
+      - name: SB
+        description: Total number of stolen bases. 
+      - name: CS
+        description: Total number of times caught stealing. 
+      - name: BB
+        description: Total number of walks. 
+      - name: SO
+        description: Total number of strike outs. 
+      - name: BA
+        description: Total number of hits/at-bats.
+      - name: OBP
+        description: On base percentage. Calculated using (H + BB + HBP)/(AB + BB + HBP + SF). 
+      - name: SLG
+        description: Slugging score. Calculated using (1B + 2*2B + 3*3B + 4*HR)/(AB).
+      - name: OPS
+        description: On Base Plus Slugging Percentage. Calculated using (OBP + SLG).
+      - name: OPSplus 
+        description: On Base Plus Sluggling Plus. Calculated using 100*[OBP/lg OBP + SLG/lg SLG - 1]. 
+      - name: TB
+        description: Total Bases. 
+      - name: GIDP
+        description: Total number of Double plays grounded into. 
+      - name: HBP
+        description: Total number of Hit by pitch. 
+      - name: SH
+        description: Total number of Sacrifice Hits (Sacrifice Bunts)
+      - name: SF
+        description: Total number of Sacrifice Flies
+      - name: IBB
+        description: Total number of Intentional Base on Balls. 
+
+  - name: stg_team_batting_reds
+    description: Batting statistics for the team. Includes all common metrics. 
+    columns:
+      - name: team
+        description: Name of the team.
+      - name: Name
+        description: Name of the player. 
+      - name: Rk
+        description: Rank of the player. 
+      - name: Pos 
+        description: Position of the player. 
+      - name: 2B
+        description: Total number of doubles hit. 
+      - name: 3B
+        description: Total number of triples player hit. 
+      - name: G
+        description: Total number of games played. 
+      - name: PA
+        description: Total number of plate appearances. 
+      - name: AB
+        description: Total number of at bats. 
+      - name: R
+        description: Total number of runs. 
+      - name: H
+        description: Total number of hits. 
+      - name: HR
+        description: Total number of homeruns. 
+      - name: RBI
+        description: Total number of runs batted in. 
+      - name: SB
+        description: Total number of stolen bases. 
+      - name: CS
+        description: Total number of times caught stealing. 
+      - name: BB
+        description: Total number of walks. 
+      - name: SO
+        description: Total number of strike outs. 
+      - name: BA
+        description: Total number of hits/at-bats.
+      - name: OBP
+        description: On base percentage. Calculated using (H + BB + HBP)/(AB + BB + HBP + SF). 
+      - name: SLG
+        description: Slugging score. Calculated using (1B + 2*2B + 3*3B + 4*HR)/(AB).
+      - name: OPS
+        description: On Base Plus Slugging Percentage. Calculated using (OBP + SLG).
+      - name: OPSplus 
+        description: On Base Plus Sluggling Plus. Calculated using 100*[OBP/lg OBP + SLG/lg SLG - 1]. 
+      - name: TB
+        description: Total Bases. 
+      - name: GIDP
+        description: Total number of Double plays grounded into. 
+      - name: HBP
+        description: Total number of Hit by pitch. 
+      - name: SH
+        description: Total number of Sacrifice Hits (Sacrifice Bunts)
+      - name: SF
+        description: Total number of Sacrifice Flies
+      - name: IBB
+        description: Total number of Intentional Base on Balls. 

@@ -2,12 +2,12 @@
 , "TB" , "GDP" , "HBP" , "SH" , "SF" , "IBB"] %}
 
 with batting as (
-    select * from {{ ref('team_batting_royals') }}
+    select * from {{ ref('team_batting_diamondbacks') }}
 )
 
 select 
     
-    'Royals' as team
+    'Diamondbacks' as team
     , Name
     , Rk
     , Pos
