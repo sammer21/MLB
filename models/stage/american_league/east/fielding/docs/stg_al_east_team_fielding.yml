@@ -1,0 +1,292 @@
+version: 2 
+
+models:
+  - name: stg_team_fielding_blue_jays
+    description: Fielding statistics for the team. Includes all common metrics. 
+    columns: 
+      - name: Team
+        description: Name of the team. 
+      - name: Age 
+        description: Age of player. 
+      - name: G
+        description: Games played or pitched. 
+      - name: GS
+        description: Games started. 
+      - name: CG
+        description: Complete games. 
+      - name: Inn
+        description: Innings played in field. 
+      - name: CH
+        description: Defensive chances. (Putouts + Assists + Errors)
+      - name: A 
+        description: Assists.
+      - name: E 
+        description: Errors commited. 
+      - name: DP 
+        description: Double plays turned. 
+      - name: Fldpct
+        description: Fielding Percentage. (Putouts + Assists)/(Putouts + Assists + Errors)
+      - name: Rtot 
+        description: Total zone total fielding runs above avg. The number of runs above or below average the player was worth based on the number of plays made. This number combines the Rtz, Rdp, Rof, Rcatch numbers into a total defensive contribution.
+      - name: Rtot-yr
+        description: Total Zone Total Fielding Runs Above Avg per 1,200 Innings. 
+      - name: Rdrs 
+        description: BIS Defensive Runs Saved Above Avg. The number of runs above or below average the player was worth based on the number of plays made.
+      - name: Rdrs-yr 
+        description: BIS Defensive Runs Saved Above Avg. per 1,200 Innings. The number of runs above or below average the fielder was worth per 1,200 Innings.
+      - name: Rgood 
+        description: BIS Good Plays/Misplays Runs Above Avg. The number of runs above or below average the player was worth based on plays where they made an exceptional contribution or obviously misplayed the situation.
+      - name: RF-9
+        description: Range Factor per 9 Inn. 9 * (Putouts + Assists) / Innings Played
+      - name: RF-G
+        description: Range Factor per Game. (Putouts + Assists) / Games Played
+      - name: PB
+        description: Passed Balls.
+      - name: WP
+        description: Wild Pitches.
+      - name: SB
+        description: Stolen Bases. 
+      - name: CS
+        description: Caught stealing. 
+      - name: CSpct
+        description: Caught stealing percentage. CS/(SB + CS)
+      - name: lgCSpct
+        description: League Caught Stealing Percentage. League Expected CS/Players SB + Players CS
+      - name: PutOuts
+        description: Total number of putouts. 
+      - name: PickOffs
+        description: Runner picked off a base. May include cases they were safe from an error. 
+      - name: Pos-Summary
+        description: Summary of positions played at. 
+
+  - name: stg_team_fielding_orioles
+    description: Fielding statistics for the team. Includes all common metrics. 
+    columns: 
+      - name: Team
+        description: Name of the team. 
+      - name: Age 
+        description: Age of player. 
+      - name: G
+        description: Games played or pitched. 
+      - name: GS
+        description: Games started. 
+      - name: CG
+        description: Complete games. 
+      - name: Inn
+        description: Innings played in field. 
+      - name: CH
+        description: Defensive chances. (Putouts + Assists + Errors)
+      - name: A 
+        description: Assists.
+      - name: E 
+        description: Errors commited. 
+      - name: DP 
+        description: Double plays turned. 
+      - name: Fldpct
+        description: Fielding Percentage. (Putouts + Assists)/(Putouts + Assists + Errors)
+      - name: Rtot 
+        description: Total zone total fielding runs above avg. The number of runs above or below average the player was worth based on the number of plays made. This number combines the Rtz, Rdp, Rof, Rcatch numbers into a total defensive contribution.
+      - name: Rtot-yr
+        description: Total Zone Total Fielding Runs Above Avg per 1,200 Innings. 
+      - name: Rdrs 
+        description: BIS Defensive Runs Saved Above Avg. The number of runs above or below average the player was worth based on the number of plays made.
+      - name: Rdrs-yr 
+        description: BIS Defensive Runs Saved Above Avg. per 1,200 Innings. The number of runs above or below average the fielder was worth per 1,200 Innings.
+      - name: Rgood 
+        description: BIS Good Plays/Misplays Runs Above Avg. The number of runs above or below average the player was worth based on plays where they made an exceptional contribution or obviously misplayed the situation.
+      - name: RF-9
+        description: Range Factor per 9 Inn. 9 * (Putouts + Assists) / Innings Played
+      - name: RF-G
+        description: Range Factor per Game. (Putouts + Assists) / Games Played
+      - name: PB
+        description: Passed Balls.
+      - name: WP
+        description: Wild Pitches.
+      - name: SB
+        description: Stolen Bases. 
+      - name: CS
+        description: Caught stealing. 
+      - name: CSpct
+        description: Caught stealing percentage. CS/(SB + CS)
+      - name: lgCSpct
+        description: League Caught Stealing Percentage. League Expected CS/Players SB + Players CS
+      - name: PutOuts
+        description: Total number of putouts. 
+      - name: PickOffs
+        description: Runner picked off a base. May include cases they were safe from an error. 
+      - name: Pos-Summary
+        description: Summary of positions played at. 
+
+  - name: stg_team_fielding_rays
+    description: Fielding statistics for the team. Includes all common metrics. 
+    columns: 
+      - name: Team
+        description: Name of the team. 
+      - name: Age 
+        description: Age of player. 
+      - name: G
+        description: Games played or pitched. 
+      - name: GS
+        description: Games started. 
+      - name: CG
+        description: Complete games. 
+      - name: Inn
+        description: Innings played in field. 
+      - name: CH
+        description: Defensive chances. (Putouts + Assists + Errors)
+      - name: A 
+        description: Assists.
+      - name: E 
+        description: Errors commited. 
+      - name: DP 
+        description: Double plays turned. 
+      - name: Fldpct
+        description: Fielding Percentage. (Putouts + Assists)/(Putouts + Assists + Errors)
+      - name: Rtot 
+        description: Total zone total fielding runs above avg. The number of runs above or below average the player was worth based on the number of plays made. This number combines the Rtz, Rdp, Rof, Rcatch numbers into a total defensive contribution.
+      - name: Rtot-yr
+        description: Total Zone Total Fielding Runs Above Avg per 1,200 Innings. 
+      - name: Rdrs 
+        description: BIS Defensive Runs Saved Above Avg. The number of runs above or below average the player was worth based on the number of plays made.
+      - name: Rdrs-yr 
+        description: BIS Defensive Runs Saved Above Avg. per 1,200 Innings. The number of runs above or below average the fielder was worth per 1,200 Innings.
+      - name: Rgood 
+        description: BIS Good Plays/Misplays Runs Above Avg. The number of runs above or below average the player was worth based on plays where they made an exceptional contribution or obviously misplayed the situation.
+      - name: RF-9
+        description: Range Factor per 9 Inn. 9 * (Putouts + Assists) / Innings Played
+      - name: RF-G
+        description: Range Factor per Game. (Putouts + Assists) / Games Played
+      - name: PB
+        description: Passed Balls.
+      - name: WP
+        description: Wild Pitches.
+      - name: SB
+        description: Stolen Bases. 
+      - name: CS
+        description: Caught stealing. 
+      - name: CSpct
+        description: Caught stealing percentage. CS/(SB + CS)
+      - name: lgCSpct
+        description: League Caught Stealing Percentage. League Expected CS/Players SB + Players CS
+      - name: PutOuts
+        description: Total number of putouts. 
+      - name: PickOffs
+        description: Runner picked off a base. May include cases they were safe from an error. 
+      - name: Pos-Summary
+        description: Summary of positions played at. 
+
+  - name: stg_team_fielding_redsox
+    description: Fielding statistics for the team. Includes all common metrics. 
+    columns: 
+      - name: Team
+        description: Name of the team. 
+      - name: Age 
+        description: Age of player. 
+      - name: G
+        description: Games played or pitched. 
+      - name: GS
+        description: Games started. 
+      - name: CG
+        description: Complete games. 
+      - name: Inn
+        description: Innings played in field. 
+      - name: CH
+        description: Defensive chances. (Putouts + Assists + Errors)
+      - name: A 
+        description: Assists.
+      - name: E 
+        description: Errors commited. 
+      - name: DP 
+        description: Double plays turned. 
+      - name: Fldpct
+        description: Fielding Percentage. (Putouts + Assists)/(Putouts + Assists + Errors)
+      - name: Rtot 
+        description: Total zone total fielding runs above avg. The number of runs above or below average the player was worth based on the number of plays made. This number combines the Rtz, Rdp, Rof, Rcatch numbers into a total defensive contribution.
+      - name: Rtot-yr
+        description: Total Zone Total Fielding Runs Above Avg per 1,200 Innings. 
+      - name: Rdrs 
+        description: BIS Defensive Runs Saved Above Avg. The number of runs above or below average the player was worth based on the number of plays made.
+      - name: Rdrs-yr 
+        description: BIS Defensive Runs Saved Above Avg. per 1,200 Innings. The number of runs above or below average the fielder was worth per 1,200 Innings.
+      - name: Rgood 
+        description: BIS Good Plays/Misplays Runs Above Avg. The number of runs above or below average the player was worth based on plays where they made an exceptional contribution or obviously misplayed the situation.
+      - name: RF-9
+        description: Range Factor per 9 Inn. 9 * (Putouts + Assists) / Innings Played
+      - name: RF-G
+        description: Range Factor per Game. (Putouts + Assists) / Games Played
+      - name: PB
+        description: Passed Balls.
+      - name: WP
+        description: Wild Pitches.
+      - name: SB
+        description: Stolen Bases. 
+      - name: CS
+        description: Caught stealing. 
+      - name: CSpct
+        description: Caught stealing percentage. CS/(SB + CS)
+      - name: lgCSpct
+        description: League Caught Stealing Percentage. League Expected CS/Players SB + Players CS
+      - name: PutOuts
+        description: Total number of putouts. 
+      - name: PickOffs
+        description: Runner picked off a base. May include cases they were safe from an error. 
+      - name: Pos-Summary
+        description: Summary of positions played at.
+
+  - name: stg_team_fielding_yankees
+    description: Fielding statistics for the team. Includes all common metrics. 
+    columns: 
+      - name: Team
+        description: Name of the team. 
+      - name: Age 
+        description: Age of player. 
+      - name: G
+        description: Games played or pitched. 
+      - name: GS
+        description: Games started. 
+      - name: CG
+        description: Complete games. 
+      - name: Inn
+        description: Innings played in field. 
+      - name: CH
+        description: Defensive chances. (Putouts + Assists + Errors)
+      - name: A 
+        description: Assists.
+      - name: E 
+        description: Errors commited. 
+      - name: DP 
+        description: Double plays turned. 
+      - name: Fldpct
+        description: Fielding Percentage. (Putouts + Assists)/(Putouts + Assists + Errors)
+      - name: Rtot 
+        description: Total zone total fielding runs above avg. The number of runs above or below average the player was worth based on the number of plays made. This number combines the Rtz, Rdp, Rof, Rcatch numbers into a total defensive contribution.
+      - name: Rtot-yr
+        description: Total Zone Total Fielding Runs Above Avg per 1,200 Innings. 
+      - name: Rdrs 
+        description: BIS Defensive Runs Saved Above Avg. The number of runs above or below average the player was worth based on the number of plays made.
+      - name: Rdrs-yr 
+        description: BIS Defensive Runs Saved Above Avg. per 1,200 Innings. The number of runs above or below average the fielder was worth per 1,200 Innings.
+      - name: Rgood 
+        description: BIS Good Plays/Misplays Runs Above Avg. The number of runs above or below average the player was worth based on plays where they made an exceptional contribution or obviously misplayed the situation.
+      - name: RF-9
+        description: Range Factor per 9 Inn. 9 * (Putouts + Assists) / Innings Played
+      - name: RF-G
+        description: Range Factor per Game. (Putouts + Assists) / Games Played
+      - name: PB
+        description: Passed Balls.
+      - name: WP
+        description: Wild Pitches.
+      - name: SB
+        description: Stolen Bases. 
+      - name: CS
+        description: Caught stealing. 
+      - name: CSpct
+        description: Caught stealing percentage. CS/(SB + CS)
+      - name: lgCSpct
+        description: League Caught Stealing Percentage. League Expected CS/Players SB + Players CS
+      - name: PutOuts
+        description: Total number of putouts. 
+      - name: PickOffs
+        description: Runner picked off a base. May include cases they were safe from an error. 
+      - name: Pos-Summary
+        description: Summary of positions played at.  
