@@ -1,0 +1,30 @@
+version: 2 
+
+models:
+  - name: dim_players
+    description: Full list of all players in the league and general information about them. 
+    columns:
+      - name: player_key
+        description: Unique key for the player. 
+        tests:
+          - unique
+          - not_null
+      - name: player_team
+        description: The team of the player. 
+      - name: player_name 
+        description: The player's name. 
+      - name: player_age
+        description: The player's age. 
+      - name: player_birth_country 
+        description: The player's birth country.
+      - name: player_batting_hand
+        description: The player's batting hand. Left, Right, Switch.  
+      - name: player_throwing_hand
+        description: The player's throwing hand. 
+      - name: player_heigh
+        description: The player's height in feet/inches.
+      - name: player_weight 
+        description: The player's weight in pounds.  
+      - name: player_years_in_league
+        description: The player's total years in the league so far. 
+          
