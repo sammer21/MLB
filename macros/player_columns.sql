@@ -4,14 +4,14 @@
     --parse_date('%b %d %y', dob) as player_date_of_birth,
     right(birth, 2) as player_birth_country,
     case 
-        when b = 'r' then 'right'
-        when b = 'l' then 'left'
-        when b = 's' then 'switch'
-        when b = 'b' then 'switch'
+        when b = 'R' then 'right'
+        when b = 'L' then 'left'
+        when b = 'S' then 'switch'
+        when b = 'B' then 'switch'
     end as player_batting_hand,
     case
-        when t = 'r' then 'right'
-        when t = 'l' then 'left'
+        when t = 'R' then 'right'
+        when t = 'L' then 'left'
     end as player_throwing_hand,
     ht as player_height,
     wt as player_weight,
