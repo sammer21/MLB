@@ -77,5 +77,6 @@ select {{ dbt_utils.generate_surrogate_key(['player_team_name', 'player_name', '
     player_throwing_hand,
     player_height,
     player_weight,
-    player_years_in_league
+    player_years_in_league,
+    player_salary
 from players
