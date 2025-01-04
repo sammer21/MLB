@@ -9,11 +9,11 @@ contract_amount as (
         Name, 
         case when instr(`Contract-Status`, '$') > 0 AND instr(`Contract-Status`, '(') > 0 
             THEN TRIM(REPLACE(REPLACE(SUBSTR(`Contract-Status`, instr(`Contract-Status`, '$') + 1, instr(`Contract-Status`, '(') - instr(`Contract-Status`, '$') - 1), 'k', ''), 'M', ''))
-        end as Contract_Numeric_Amount,
+        end as Contract_Numeric_Amount, -- used to parse out the Contract-Status field to retrieve the numeric amount of the player contract 
     case when regexp_contains(`Contract-Status`, r'[kKmM]') 
          then regexp_extract(`Contract-Status`, r'[kKmM]')
          else null
-    end as Contract_Amount_Measure
+    end as Contract_Amount_Measure -- used to retrieve the contract measure (k,K,m,M) from the Contract-Status field
     from contract_data
 )
 
@@ -29,7 +29,7 @@ select 'Angels' as Team,
     case when contract_amount.Contract_Amount_Measure = 'k' then cast(contract_amount.Contract_Numeric_Amount as FLOAT64)*1000
          when contract_amount.Contract_Amount_Measure = 'M' then cast(contract_amount.Contract_Numeric_Amount as FLOAT64) *1000000
          else cast(contract_amount.Contract_Numeric_Amount as FLOAT64)
-    end as Contract_Amount,
+    end as Contract_Amount, -- calcluating the specific contract amount 
     regexp_extract(`Contract-Status`, r'\((\d{2}(?:-\d{2})?)\)') as Contract_Seasons,
     regexp_extract(`Contract-Status`, r'& (.+)$') as Contract_Options,
     `2024`,
