@@ -1,0 +1,70 @@
+version: 2 
+
+models:
+  - name: dim_contracts
+    description: Contract dimensions and characteristics for all players. 
+    columns:
+      - name: player_key
+        description: The unique key for the player. Surrogate key comprised of `player_team_name`, `player_name`, `player_age`. 
+
+      - name: player_team_name
+        description: The team name of the player. 
+
+      - name: player_name
+        description: The name of the player. 
+
+      - name: player_age
+        description: The age of the player. 
+
+      - name: player_years
+        description: The years the player has been in the league. 
+
+      - name: player_acquired_status
+        description: The recent acquisition information for the player. 
+
+      - name: player_service_time
+        description: The total number of days the player was active in the season. Service time is in YY.DDD format. 
+
+      - name: player_contract_length
+        description: The contract length of the player. 
+
+      - name: player_contract_amount
+        description: The contract amount of the player. 
+
+      - name: player_contract_seasons
+        description: The seasons the contract is for.
+
+      - name: player_contract_options
+        description: Any options that are associated with the player's contract.
+
+      - name: "2024"
+        description: Contract year 2024.
+
+      - name: "2025"
+        description: Contract year 2025.
+
+      - name: "2026"
+        description: Contract year 2026.
+
+      - name: "2027"
+        description: Contract year 2027.
+
+      - name: "2028"
+        description: Contract year 2028.
+
+      - name: "2029"
+        description: Contract year 2029.
+
+      - name: "2030"
+        description: Contract year 2030.
+
+
+    
+    
+    
+    
+    
+    
+    
+ 
+      

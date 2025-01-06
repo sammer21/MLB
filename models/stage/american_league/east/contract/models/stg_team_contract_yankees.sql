@@ -18,20 +18,20 @@ contract_amount as (
 )
 
 
-select 'Yankees' as Team, 
-    contract_data.Name, 
-    Age,
-    Yrs, 
-    Acquired,
-    SrvTm as Service_Time,
-    Agent, 
-    regexp_extract(`Contract-Status`, r'\d+ yr[s]?') as Contract_Length,
+select 'Yankees' as player_team_name, 
+    contract_data.Name as player_name, 
+    Age as player_age,
+    Yrs as player_years, 
+    Acquired as player_acquired_status,
+    SrvTm as player_service_time,
+    Agent as player_agent, 
+    regexp_extract(`Contract-Status`, r'\d+ yr[s]?') as player_contract_length,
     case when contract_amount.Contract_Amount_Measure = 'k' then cast(contract_amount.Contract_Numeric_Amount as FLOAT64)*1000
          when contract_amount.Contract_Amount_Measure = 'M' then cast(contract_amount.Contract_Numeric_Amount as FLOAT64) *1000000
          else cast(contract_amount.Contract_Numeric_Amount as FLOAT64)
-    end as Contract_Amount,
-    regexp_extract(`Contract-Status`, r'\((\d{2}(?:-\d{2})?)\)') as Contract_Seasons,
-    regexp_extract(`Contract-Status`, r'& (.+)$') as Contract_Options,
+    end as player_contract_amount,
+    regexp_extract(`Contract-Status`, r'\((\d{2}(?:-\d{2})?)\)') as player_contract_seasons,
+    regexp_extract(`Contract-Status`, r'& (.+)$') as player_contract_options,
     `2024`,
     `2025`,
     `2026`,
