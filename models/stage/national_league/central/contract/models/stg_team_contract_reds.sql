@@ -37,7 +37,8 @@ select 'Reds' as Team,
     `2026`,
     `2027`,
     `2028`,
-    `2029`
+    `2029`,
+    null as `2030`
 from contract_data
 left join contract_amount
     on contract_data.Name = contract_amount.Name

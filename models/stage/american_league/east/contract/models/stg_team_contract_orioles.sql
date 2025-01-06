@@ -34,7 +34,11 @@ select 'Orioles' as Team,
     regexp_extract(`Contract-Status`, r'& (.+)$') as Contract_Options,
     `2024`,
     `2025`,
-    `2026`
+    `2026`,
+    null as `2027`,
+    null as `2028`,
+    null as `2029`,
+    null as `2030`
 from contract_data
 left join contract_amount
     on contract_data.Name = contract_amount.Name
